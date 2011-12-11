@@ -3,6 +3,6 @@
    <content><![CDATA[
 ${TM_CURRENT_LINE/./-/g}
 ]]></content>
-   <tabTrigger>$</tabTrigger>
+   <tabTrigger>-</tabTrigger>
    <scope>text.html.asciidoc</scope>
 </snippet>

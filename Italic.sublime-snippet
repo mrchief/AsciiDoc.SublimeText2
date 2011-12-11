@@ -1,6 +1,6 @@
 <snippet>
    <description>Italic</description>
    <content><![CDATA[_${0:${TM_SELECTED_TEXT}}_]]></content>
-   <tabTrigger>_$</tabTrigger>
+   <tabTrigger>_</tabTrigger>
    <scope>text.html.asciidoc</scope>
 </snippet>

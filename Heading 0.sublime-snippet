@@ -6,6 +6,6 @@ ${1:Author Name} <${2:mail@address.com}>
 v1.0, `date`
 
 ]]></content>
-   <tabTrigger>$</tabTrigger>
+   <tabTrigger>=</tabTrigger>
    <scope>text.html.asciidoc</scope>
 </snippet>

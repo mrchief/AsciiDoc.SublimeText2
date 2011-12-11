@@ -1,6 +1,5 @@
 <snippet>
    <description>Anchor</description>
    <content><![CDATA[[[${1:name}]]]]></content>
-   <tabTrigger>[[</tabTrigger>
    <scope>text.html.asciidoc</scope>
 </snippet>
