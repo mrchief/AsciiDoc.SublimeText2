@@ -1,0 +1,10 @@
+<snippet>
+   <description>Table</description>
+   <content><![CDATA[.${1:Legend}
+[width="${2:100%}",cols="$3",options="$4"]
+|===
+|$5
+|===]]></content>
+   <tabTrigger>|=</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

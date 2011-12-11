@@ -1,0 +1,9 @@
+<snippet>
+   <description>Quote Block</description>
+   <content><![CDATA[____________________________________________________________________________
+$1
+____________________________________________________________________________
+$0]]></content>
+   <tabTrigger>__</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

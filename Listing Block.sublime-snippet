@@ -1,0 +1,10 @@
+<snippet>
+   <description>Listing Block</description>
+   <content><![CDATA[[source,scala]
+----------------------------------------------------------------------
+$1
+----------------------------------------------------------------------
+$0]]></content>
+   <tabTrigger>--</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

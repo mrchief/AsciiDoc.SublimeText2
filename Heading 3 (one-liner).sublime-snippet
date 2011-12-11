@@ -1,0 +1,8 @@
+<snippet>
+   <description>Heading 3 (one-liner)</description>
+   <content><![CDATA[==== $1 ====
+
+$0]]></content>
+   <tabTrigger>h3</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

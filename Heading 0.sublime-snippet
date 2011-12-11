@@ -1,0 +1,11 @@
+<snippet>
+   <description>Heading 0</description>
+   <content><![CDATA[
+${TM_CURRENT_LINE/./=/g}
+${1:Author Name} <${2:mail@address.com}>
+v1.0, `date`
+
+]]></content>
+   <tabTrigger>$</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

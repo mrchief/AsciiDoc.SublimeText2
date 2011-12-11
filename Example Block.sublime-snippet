@@ -1,0 +1,9 @@
+<snippet>
+   <description>Example Block</description>
+   <content><![CDATA[============================================================================
+$1
+============================================================================
+$0]]></content>
+   <tabTrigger>==</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+   <description>Heading 0 (one-liner)</description>
+   <content><![CDATA[= $1 =
+${2:Author Name} <${3:mail@address.com}>
+v1.0, `date`
+
+$0]]></content>
+   <tabTrigger>h0</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>

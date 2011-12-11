@@ -1,0 +1,8 @@
+<snippet>
+   <description>Heading 3</description>
+   <content><![CDATA[
+${TM_CURRENT_LINE/./^/g}
+]]></content>
+   <tabTrigger>$</tabTrigger>
+   <scope>text.html.asciidoc</scope>
+</snippet>
