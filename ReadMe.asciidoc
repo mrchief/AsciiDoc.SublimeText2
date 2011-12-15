@@ -18,10 +18,10 @@ To install the package, follow these steps:
 
  - Download the zip containing src files.
  - Extract the files to *AsciiDoc* folder (create this folder if not present already) under:
-	- Windows: `%APPDATA%\Sublime Text 2\Packages\`    
-	- OS X: `~/Library/Application Support/Sublime Text 2/Packages`
-	- Linux: `~/.config/sublime-text-2`
-	- Portable Installation: `Sublime Text 2/Data`   
+   * Windows: `%APPDATA%\Sublime Text 2\Packages\`    
+   * OS X: `~/Library/Application Support/Sublime Text 2/Packages`
+   * Linux: `~/.config/sublime-text-2`
+   * Portable Installation: `Sublime Text 2/Data`   
  - Close all instances of Sublime Text 2 editor and relaunch the editor.  
 
 If successful, you should see **AsciiDoc** entry under `View > Syntax` and under `Tools > Snippets`.
@@ -35,7 +35,7 @@ If successful, you should see **AsciiDoc** entry under `View > Syntax` and under
 
 [TIP]
 ===========
-Syntax highlighting works best with Twilight theme. 
+Syntax highlighting works best with Sunburst or Twilight theme. 
 For other themes, you may have to customize them. 
 ===========
 
