@@ -1,11 +1,11 @@
-Keyboard Shortcuts
-===
+=== Keyboard Shortcuts
+
 Here is a complete list of keyboard shortcuts:
 
  - *Bold* (type `ctrl+b`)
  - _Italics_ (type `ctrl+i`)
  - `Code` (type `ctrl+shift+c`)
- - `Single Quotes' (type `ctrl+'`)
+ - `Single Quote' (type `ctrl+'`)
  - ``Double Quotes'' (type `ctrl+shift+'`)
  - ^Superscript^ (type `ctrl+shift+6`)
  - ~Subscript~ (type `ctrl+shift+\``)

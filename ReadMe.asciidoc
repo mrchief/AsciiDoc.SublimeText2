@@ -12,7 +12,7 @@ My work is to overcome these limitations.
 
 All the files provided here are tested in Windows 7 and OS X Lion. 
 
-=== Installation ===
+== Installation ==
 
 To install the package, follow these steps:
 
@@ -28,7 +28,7 @@ If successful, you should see **AsciiDoc** entry under `View > Syntax` and under
 
 **Note**: Snippets may take few seconds to load under Windows.
 
-=== Usage ===
+== Usage ==
 
  - Create a new file, save it as `<filename>.asc` or change the syntax to AsciiDoc
  - Start typing AsciiDoc!
@@ -39,7 +39,7 @@ Syntax highlighting works best with Twilight theme.
 For other themes, you may have to customize them. 
 ===========
 
-=== Snippets ===
+== Snippets ==
 
 Snippets can be inserted anywhere by using the menu command `Tools > Snippets > AsciiDoc` or by typing two initial characters and hitting tab to complete.
 Few tab completion examples are:
@@ -50,7 +50,7 @@ Few tab completion examples are:
  - Tab expansion for blocks (type `== TAB`)  
  - Sidebar block (type `** TAB`)    
 
-=== Keyboard Shortcuts ===
+== Keyboard Shortcuts ==
 
 Keyboard shortcuts let you do some quick formatting such setting the text to bold or italics.
 Some examples are:
@@ -62,7 +62,7 @@ Some examples are:
 
 For a complete list, see https://github.com/mrchief/AsciiDoc.SublimeText2.Package/blob/master/docs/shortcuts.asciidoc[Keyboard shortcuts].
 
-=== Planned Enhancements ===
+== Planned Enhancements ==
 
 Following are planned enhancements for the package:
 
@@ -71,7 +71,7 @@ Following are planned enhancements for the package:
                                                    
     
 
-=== Author & Credits ===
+== Author & Credits ==
 
 Created by Hrusikesh Panda. 
 
