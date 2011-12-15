@@ -5,8 +5,10 @@ Here is a complete list of keyboard shortcuts:
  - *Bold* (type `ctrl+b`)
  - _Italics_ (type `ctrl+i`)
  - `Code` (type `ctrl+shift+c`)
- - 'Single Quotes' (type `ctrl+'`)
- - "Double Quotes" (type `ctrl+shift+'`)
+ - `Single Quotes' (type `ctrl+'`)
+ - ``Double Quotes'' (type `ctrl+shift+'`)
  - ^Superscript^ (type `ctrl+shift+6`)
  - ~Subscript~ (type `ctrl+shift+\``)
- - `Command` (type `ctrl+\``)
+ - `Command` (type `ctrl+\``)   
+
+Back to https://github.com/mrchief/AsciiDoc.SublimeText2.Package[Home]

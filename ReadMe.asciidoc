@@ -60,14 +60,14 @@ Some examples are:
  - Code (type `ctrl+shift+c`)
  - Double Quotes (type `ctrl+shift+'`)
 
-For a complete list, see https://github.com/mrchief/AsciiDoc.SublimeText2.Package/blob/master/docs/shortcuts.asc[Keyboard shortcuts].
+For a complete list, see https://github.com/mrchief/AsciiDoc.SublimeText2.Package/blob/master/docs/shortcuts.asciidoc[Keyboard shortcuts].
 
 === Planned Enhancements ===
 
 Following are planned enhancements for the package:
 
  - Adding Build system to preview as HTML or PDF.
- - Anything else you wanna see! Just add it to the [issues list].
+ - Anything else you wanna see! Just add it to the https://github.com/mrchief/AsciiDoc.SublimeText2.Package/issues[issues] list.
                                                    
     
 
