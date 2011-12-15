@@ -1,14 +1,29 @@
 === Keyboard Shortcuts
 
+Keyboard shortcuts work the same way as they do in text processors such as MS Word, i.e. you select one or more words and then hit the key combination to apply the formatting.
+
 Here is a complete list of keyboard shortcuts:
 
  - *Bold* (type `ctrl+b`)
  - _Italics_ (type `ctrl+i`)
  - `Code` (type `ctrl+shift+c`)
- - `Single Quote' (type `ctrl+'`)
- - ``Double Quotes'' (type `ctrl+shift+'`)
+ - \'Single Quote' (type `ctrl+'`)
+ - "Double Quotes" (type `ctrl+shift+'`)
  - ^Superscript^ (type `ctrl+shift+6`)
  - ~Subscript~ (type `ctrl+shift+\``)
  - `Command` (type `ctrl+\``)   
 
-Back to https://github.com/mrchief/AsciiDoc.SublimeText2.Package[Home]
+
+'*More coming soon!*'
+
+[NOTE]
+======
+GitHub's AsciiDoc formatter doesn't handle single quotes and double quotes the standard way. 
+If you're viewing the source of this file, do not get confused by the single quote and double quote syntax.
+
+The package however will apply proper syntax to your document.
+
+Refer to the standard documentation for proper http://www.methods.co.nz/asciidoc/userguide.html#X51[syntax].
+======
+
+Back to https://github.com/mrchief/AsciiDoc.SublimeText2.Package[Readme]
