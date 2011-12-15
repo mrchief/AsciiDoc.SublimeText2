@@ -1,0 +1,66 @@
+[
+	{ 	"keys"   :	["ctrl+b"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "*${0:$SELECTION}*"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+i"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "_${0:$SELECTION}_"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+shift+c"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "+${0:$SELECTION}+"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+shift+6"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "^${0:$SELECTION}^"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+shift+`"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "~${0:$SELECTION}~"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+`"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "`${0:$SELECTION}`"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+shift+'"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "``${0:$SELECTION}''"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	} ,
+	{ 	"keys"   :	["ctrl+'"], 
+		"command":	"insert_snippet",
+		"args"   :	{ "contents": "`${0:$SELECTION}'"  },
+		"context":	
+		[ 
+			{ "key": "selector", "operator": "equal", "operand": "text.html.asciidoc" } 
+		]
+	}  
+]
