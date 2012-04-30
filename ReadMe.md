@@ -43,14 +43,26 @@ Few tab completion examples are:
  - Headings (type `h1 TAB` to `h4 TAB` for one-liner versions)
  - Table generation (type `|= TAB`) 
  - Tab expansion for blocks (type `== TAB`)  
- - Sidebar block (type `** TAB`)    
+ - Sidebar block (type `** TAB`) 
+
+Keyboard Shortcuts
+-------- 
+Basic support for some handy shortcuts are now available:
+
+ - **Bold** selection: Select some text and then press `ctrl+b`
+ - _Italic_ize selection: Select some text and then press `ctrl+i`
+ - Mark selection as Code literal: Select some text and then press `ctrl+k`
+
+**Note**: `ctrl+b` overrides the standard key binding of `Tools > Build System`. If this bothers you, you can edit the `.sublime-keymap` files (based on your OS) under `Packages\AsciiDoc` folder.
+
+Time permitting, I'll add more shortcuts but meanwhile if you come upon something useful, feel free to submit a patch!
 
 Enhancements
 ------------
 
 Following are planned enhancements for the package:
 
- - Add keyboard shortcuts for various commands such bold text, italics, blocks etc.
+ - <strike>Add keyboard shortcuts for various commands such bold text, italics, blocks etc.</strike>
  - Adding Build system to preview as HTML or PDF.
                                                    
 Your suggestions are welcome.       
