@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 	{ 	"keys"   :	["ctrl+b"], 
 		"command":	"insert_snippet",
@@ -64,3 +65,25 @@
 		]
 	}  
 ]
+=======
+[
+	{ "keys": ["cmd+b"], "command": "insert_snippet", "args": {"contents": "*${0:$SELECTION}*"}, "context":
+		[
+			{"key": "selection_empty", "operator": "equal", "operand": false},
+			{"key": "selector", "operator": "equal", "operand": "text.html.asciidoc"}
+		]
+	},
+	{ "keys": ["cmd+i"], "command": "insert_snippet", "args": {"contents": "_${0:$SELECTION}_"}, "context":
+		[
+			{"key": "selection_empty", "operator": "equal", "operand": false},
+			{"key": "selector", "operator": "equal", "operand": "text.html.asciidoc"}
+		]
+	},
+	{ "keys": ["cmd+k"], "command": "insert_snippet", "args": {"contents": "+${0:$SELECTION}+"}, "context":
+		[
+			{"key": "selection_empty", "operator": "equal", "operand": false},
+			{"key": "selector", "operator": "equal", "operand": "text.html.asciidoc"}
+		]
+	}
+]
+>>>>>>> 2decf5be0d74e3a5b5d5279f2278a2c723f397a5
