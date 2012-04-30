@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Asciidoc.sublimetext2.package by mrchief</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Asciidoc.sublimetext2.package</h1>
+        <p>AsciiDoc Package for Sublime Text2</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/mrchief/AsciiDoc.SublimeText2" class="button fork"><strong>Fork On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/mrchief/AsciiDoc.SublimeText2/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/mrchief/AsciiDoc.SublimeText2/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>AsciiDoc Package for Sublime Text 2</h1>
+
+<p>This is an <a href="http://www.methods.co.nz/asciidoc%5BAsciiDoc%5D">http://www.methods.co.nz/asciidoc[AsciiDoc]</a> package for <a href="http://www.sublimetext.com%5BSublime">http://www.sublimetext.com[Sublime</a> Text 2 editor].</p>
+
+<p>It adds syntax highlighting and snippets for AsciiDoc language to Sublime Text 2 editor.</p>
+
+<p>My work is based on the Christian Zuckschwerdt's <a href="https://github.com/zuckschwerdt/asciidoc.tmbundle%5BAsciiDoc">https://github.com/zuckschwerdt/asciidoc.tmbundle[AsciiDoc</a> TextMate bundle].</p>
+
+<p>Sublime Text 2 is compatible with Textmate editor for OS X snippets, preferences and languages file. 
+However, even though it can recognize the Textmate snippets, some features such as tab completion, shortcut commands do not work out of the box.</p>
+
+<p>My work is to overcome these limitations.</p>
+
+<p>All the files provided here are tested in Windows 7 and OS X Lion. </p>
+
+<h2>Installation</h2>
+
+<p>To install the package, follow these steps:</p>
+
+<ul>
+<li>Download the zip containing src files.</li>
+<li>Extract the files to <em>AsciiDoc</em> folder (create this folder if not present already) under:
+
+<ul>
+<li>Windows: <code>%APPDATA%\Sublime Text 2\Packages\</code><br>
+</li>
+<li>OS X: <code>~/Library/Application Support/Sublime Text 2/Packages</code>
+</li>
+<li>Linux: <code>~/.config/sublime-text-2</code>
+</li>
+<li>Portable Installation: <code>Sublime Text 2/Data</code><br>
+</li>
+</ul>
+</li>
+<li>Close all instances of Sublime Text 2 editor and relaunch the editor.<br>
+</li>
+</ul><p>If successful, you should see <strong>AsciiDoc</strong> entry under <code>View &gt; Syntax</code> and under <code>Tools &gt; Snippets</code>.</p>
+
+<p><strong>Note</strong>: Snippets may take few seconds to load under Windows.</p>
+
+<h2>Usage</h2>
+
+<ul>
+<li>Create a new file, save it as <code>&lt;filename&gt;.asc</code> or change the syntax to AsciiDoc</li>
+<li>Start typing AsciiDoc!</li>
+</ul><p><strong>TIP</strong>: Syntax highlighting works best with Sunburst or Twilight theme. 
+For other themes, you may have to customize them. </p>
+
+<h2>Snippets</h2>
+
+<p>Snippets can be inserted anywhere by using the menu command <code>Tools &gt; Snippets &gt; AsciiDoc</code> or by typing two initial characters and hitting tab to complete.
+Few tab completion examples are:</p>
+
+<ul>
+<li>Comments (type <code>// TAB</code>)</li>
+<li>Headings (type <code>h1 TAB</code> to <code>h4 TAB</code> for one-liner versions)</li>
+<li>Table generation (type <code>|= TAB</code>) </li>
+<li>Tab expansion for blocks (type <code>== TAB</code>)<br>
+</li>
+<li>Sidebar block (type <code>** TAB</code>)<br>
+</li>
+</ul><h2>Keyboard Shortcuts</h2>
+
+<p>Keyboard shortcuts let you do some quick formatting such setting the text to bold or italics.
+Some examples are:</p>
+
+<ul>
+<li>Bold (type <code>ctrl+b</code>)</li>
+<li>Italics (type <code>ctrl+i</code>)</li>
+<li>Code (type <code>ctrl+shift+c</code>)</li>
+<li>Double Quotes (type <code>ctrl+shift+'</code>)</li>
+</ul><p>For a complete list, see <a href="https://github.com/mrchief/AsciiDoc.SublimeText2.Package/blob/master/docs/shortcuts.asciidoc%5BKeyboard">https://github.com/mrchief/AsciiDoc.SublimeText2.Package/blob/master/docs/shortcuts.asciidoc[Keyboard</a> shortcuts].</p>
+
+<h2>Planned Enhancements</h2>
+
+<p>Following are planned enhancements for the package:</p>
+
+<ul>
+<li>Adding Build system to preview as HTML or PDF.</li>
+<li>Anything else you wanna see! Just add it to the <a href="https://github.com/mrchief/AsciiDoc.SublimeText2.Package/issues%5Bissues%5D">https://github.com/mrchief/AsciiDoc.SublimeText2.Package/issues[issues]</a> list.</li>
+</ul><h2>Author &amp; Credits</h2>
+
+<p>Created by Hrusikesh Panda. </p>
+
+<p>Copy left or right, as you wish.                                         </p>
+
+<p>Credit goes to Christian Zuckschwerdt for his original work on AsciiDoc TextMate bundle.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/mrchief">mrchief</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
